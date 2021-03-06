@@ -1,0 +1,16 @@
+$myColor: red;
+
+h1 {
+  color: $myColor;
+}
+
+.header,
+.footer{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    left: 0;
+    border: 1px solid blue;
+}
+.header{ top: 0;}
+.footer{bottom: 0;}
